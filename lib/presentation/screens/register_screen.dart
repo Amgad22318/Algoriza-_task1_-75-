@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:task1/constants/screens.dart';
 import 'package:task1/presentation/styles/colors.dart';
 import 'package:task1/presentation/widgets/default_asset_image.dart';
 import 'package:task1/presentation/widgets/default_form_field.dart';
@@ -8,9 +7,7 @@ import 'package:task1/presentation/widgets/default_google_sign_button.dart';
 import 'package:task1/presentation/widgets/default_horizontal_divider.dart';
 import 'package:task1/presentation/widgets/default_icon_button.dart';
 import 'package:task1/presentation/widgets/default_material_button.dart';
-import 'package:task1/presentation/widgets/default_outlined_button.dart';
 import 'package:task1/presentation/widgets/default_phone_form_field.dart';
-import 'package:task1/presentation/widgets/default_svg.dart';
 import 'package:task1/presentation/widgets/default_text.dart';
 import 'package:task1/presentation/widgets/default_text_button.dart';
 import 'package:task1/presentation/widgets/help_button.dart';
