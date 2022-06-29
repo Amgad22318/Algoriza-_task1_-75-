@@ -10,7 +10,7 @@ class AppRouter {
   late Widget startScreen;
 
   AppRouter() {
-    // CacheHelper.clearSPData();
+    //CacheHelper.clearSPData();
     bool? onBoardingSeen =
         CacheHelper.getDataFromSP(key: SharedPreferencesKeys.onBoardingSeen);
     if (onBoardingSeen == true) {
