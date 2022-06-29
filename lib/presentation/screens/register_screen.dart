@@ -49,7 +49,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   width: double.infinity,
                   child: const DefaultAssetImage(
                       imagePath: 'assets/images/login_appbar_background2.png',
-                      fit: BoxFit.fill),
+                      fit: BoxFit.cover),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -199,7 +199,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       children: [
                         Flexible(
                             child: DefaultText(
-                                text: "Has any account?", fontSize: 12.sp)),
+                          text: "Has any account?",
+                          fontSize: 12.sp,
+                          maxLines: 2,
+                        )),
                         const SizedBox(
                           width: 5,
                         ),

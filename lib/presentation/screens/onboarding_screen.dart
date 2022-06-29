@@ -120,7 +120,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             children: [
               Flexible(
                   child: DefaultText(
-                      text: "Don't have account? ", fontSize: 12.sp)),
+                text: "Don't have account? ",
+                fontSize: 12.sp,
+                maxLines: 2,
+              )),
               Flexible(
                 child: DefaultTextButton(
                     child: DefaultText(

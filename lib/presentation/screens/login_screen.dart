@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
               width: double.infinity,
               child: const DefaultAssetImage(
                   imagePath: 'assets/images/login_appbar_background1.png',
-                  fit: BoxFit.fill),
+                  fit: BoxFit.cover),
             ),
             Padding(
               padding: const EdgeInsetsDirectional.only(
@@ -119,7 +119,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Flexible(
                             child: DefaultText(
-                                text: "Don't have account?", fontSize: 12.sp)),
+                          text: "Don't have account?",
+                          fontSize: 12.sp,
+                          maxLines: 2,
+                        )),
                         const SizedBox(
                           width: 5,
                         ),

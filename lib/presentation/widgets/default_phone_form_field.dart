@@ -27,7 +27,9 @@ class DefaultPhoneFormField extends StatelessWidget {
         prefixIcon: CountryCodePicker(
           onChanged: print,
           initialSelection: 'EG',
-          favorite: ['+20', 'EG'],
+          favorite: const ['+20', 'EG'],
+          textStyle: TextStyle(fontSize: 12.sp),
+          searchStyle: TextStyle(fontSize: 12.sp),
         ),
         isDense: true,
         border: border,

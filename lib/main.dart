@@ -13,7 +13,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CacheHelper.init();
   runApp(DevicePreview(
-      enabled: true,
+      enabled: false,
       isToolbarVisible: true,
       builder: (context) => const MyApp()));
 }
